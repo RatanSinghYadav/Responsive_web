@@ -1,0 +1,67 @@
+.main-container{
+    margin-top:100px;
+    border-radius:8px;
+
+
+}
+.row{
+   justify-content:space-around;
+   border-radius:10px;
+}
+.items-in-cart{
+    margin:5px;
+}
+.item-col-1{
+    background: lightgrey;
+    text-align:center;
+    font-weight:bold;
+    border-radius:6px;
+    padding:8px 0px 8px 0px;
+}
+.counter{
+    font-weight: bold;
+    border:none;
+    border-radius: 6px;
+    background:rgb(192, 202, 51);
+    text-align:center;
+}
+input{
+    border-radius: 6px;
+    width:117px;
+    margin: 13px 0px 0px 12px;
+}
+span{
+    text-align:center;
+}
+.col-4{
+
+}
+.summary{
+    border: 1px solid grey;
+    border-radius:10px;
+    margin:5px;
+
+}
+.summary-col-1{
+    background: lightgrey;
+    text-align:center;
+    font-weight:bold;
+    border-radius:6px;
+    padding:8px 0px 8px 0px;
+
+}
+.float-start{
+    margin:8px 0px 8px 8px;
+}
+.float-end{
+   margin:8px 8px 8px 0px;
+}
+.submit-btn{
+    background:rgb(192, 202, 51);
+    text-align:center;
+    margin: 50px 0px 0px 80px;
+    padding:5px 10px 5px 10px;
+    font-weight: bold;
+    border:none;
+    border-radius: 6px;
+}

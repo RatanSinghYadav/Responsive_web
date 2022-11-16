@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="login-style.css">
+
+</head>
+<body>
+       <!--   Nav-Bar    -->
+
+       <div class="container-fluid bg-dark">
+           <div class="navbar">
+               <div class="logo">
+                   <h2>logo</h2>
+               </div>
+               <nav>
+                   <input placeholder="product name, category name,etc." type="text">
+                   <button>search</button>
+               </nav>
+               <div class="end flex-wrap">
+                   <h5><a href="#">login</a></h5>
+                   <a href="#"><i class="cart fa fa-shopping-cart"></i></a>
+               </div>
+           </div>
+       </div>
+
+
+
+<!--   Loign/SignUp -->
+
+      <section class="Form my-4 mx-auto">
+          <div class="container mb-4">
+              <div class="row gx-0">
+                  <div class="col-lg-6">
+                      <img class="img-fluid"  src="img/chair.jpg" alt="">
+                  </div>
+                  <div class="col-lg-6 mt-4 px-5 ">
+                      <div class="button-box">
+                           <div id="btn1"></div>
+                           <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                           <button type="button"class="toggle-btn" onclick="register()">Register</button>
+                      </div>
+                      <h4 class="font-weight-bold py-3"> Login in your Account</h4>
+                      <div class="container-fluid">
+                      <div class="toggle-form">
+                      <form id="login">
+                          <div class="form-row ">
+                              <div class="col-lg-7">
+                                  <input  class="form-control my-3" type="email" placeholder="email">
+                              </div>
+                          </div>
+                          <div class="form-row">
+                              <div class="col-lg-7">
+                                  <input  class="form-control my-3" type="password"placeholder="password">
+                              </div>
+                          </div>
+                          <div class="form-row">
+                              <div class="col-lg-7">
+                                  <button type="button" class="btn mb-3">Login</button>
+                              </div>
+                          </div>
+                          <a href="#">Forgot Password</a>
+                      </form>
+
+                      <form id="register">
+                          <div class="form-row ">
+                              <div class="col-lg-7">
+                                  <input  class="form-control my-3" type="email" placeholder="email">
+                              </div>
+                          </div>
+                          <div class="form-row">
+                              <div class="col-lg-7">
+                                  <input  class="form-control my-3" type="password"placeholder="password">
+                              </div>
+                          </div>
+                          <div class="form-row">
+                              <div class="col-lg-7">
+                                  <button type="button" class="btn mb-3">Login</button>
+                              </div>
+                          </div>
+                          <a href="#">Forgot Password</a>
+                      </form>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+
+<!--   footer   -->
+       <div class="footer fixed-bottom">
+           <div class="container-fluid card-body bg-black ">
+               <div class="d-flex align-items-center ">
+                   <div class="footer-col-1">
+                       <ul>
+                           <li><h5>Mens</h5></li>
+                           <li>Shirts</li>
+                           <li>Pants</li>
+                           <li>Hoodies</li>
+                       </ul>
+                   </div>
+                   <div class="footer-col-2">
+                       <ul>
+                           <li><h5>Women</h5></li>
+                           <li>Dresses</li>
+                           <li>Pants</li>
+                           <li>Skirts</li>
+                       </ul>
+                   </div>
+                   <div class="footer-col-3">
+                       <ul>
+                           <li><h5>links</h5></li>
+                           <li>Home</li>
+                           <li>Login</li>
+                           <li>Contact</li>
+                       </ul>
+                   </div>
+                   <div class="footer-col-4">
+                       <ul>
+                           <li><h5>Kids</h5></li>
+                           <li>T-Shirts</li>
+                           <li>Pants</li>
+                           <li>Shoes</li>
+                       </ul>
+                   </div>
+               </div>
+               <hr><p class="copyright"style="text-align:center;color:white;">Copyright 2022 - LOGO</p>
+           </div>
+       </div>
+
+
+      <script src="login-script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  
+</body>
+</html>

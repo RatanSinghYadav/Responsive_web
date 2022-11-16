@@ -1,0 +1,176 @@
+body{
+   background-image: linear-gradient(to right,blue,red);
+
+}
+.header{
+    position: relative;
+    height: 65px;
+    width: 1350px;
+    background-color:rgb(38, 50, 56);
+    font-family: arial;
+}
+.logo{
+    position:absolute;
+ /*   border: 2px solid rgb(63, 81, 181);*/
+    height: 25px;
+    width: 80px;
+    left: 20px;
+    top: 16px;
+}
+.searchBar{
+    position:absolute;
+    left: 460px;
+    top: 18px;
+/*    border: 2px solid rgb(0, 150, 136);*/
+    height: 34px;
+    width: 425px;
+    border-radius: 8px;
+}
+.search{
+    border:0px;
+    height: 30px;
+    width: 359px;
+    border-radius: 0px 0px 0px 8px;
+}
+.searchBtn{
+    font-weight: bold;
+    border:0px;
+    float:right;
+    height: 30px;
+    border-radius: 0px 8px 0px 0px;
+    background-color:rgb(192, 202, 51);
+}
+.loginbar{
+    position:absolute;
+    float: right;
+/*    border: 2px solid rgb(255, 152, 0);*/
+    height: 30px;
+    width: 130px;
+    left: 1200px;
+    top: 18px;
+}
+.login{
+    font-weight: bold;
+    border:0px;
+    border-radius: 4px;
+    float:left;
+    background-color: rgb(158, 157, 36);
+}
+.cart{
+    font-weight: bold;
+    position:absolute;
+    border-radius: 4px;
+    border:0px;
+    top: -6px;
+    left: 65px;
+    font-size: 25px;
+    background-color:rgb(38, 50, 56);
+    color:rgb(158, 157, 36);
+}
+
+/* Navigation panel */
+
+.navigation{
+    position: relative;
+    height: 35px;
+    width: 1350px;
+    background-color: rgb(238, 238, 238);
+}
+.nav-list{
+    position: absolute;
+    top: -8px;
+    left: 400px;
+    height: 45px;
+    width: 540px;
+}
+.navigation .mainLi{
+    float: left;
+    list-style: none;
+    margin: 15px;
+    font-weight: bold;
+    font-family: arial;
+}
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:active{
+    color: white;
+}
+.cart1:link, .cart1:visited {
+    color: rgb(158, 157, 36);
+    text-decoration: none;
+}
+.cart1:active{
+    color: white;
+}
+
+/*Sub menu Items*/
+.sub-menu-1{
+    display:none;
+}
+/* end */
+
+/* Footer Bar */
+
+.footer{
+    position:absolute;
+    background-color:rgb(38, 50, 56);
+    top:690px;
+    left:0px;
+    text-align:center;
+    color:white;
+    height:300px;
+    width:1350px;
+
+}
+.footer-item-1{
+    position:absolute;
+    top:80px;
+    left:80px;
+}
+.footer-item-2{
+    position:absolute;
+    top:80px;
+    left:430px;
+}
+.footer-item-3{
+    position:absolute;
+    top:80px;
+    left:760px;
+}
+.footer-item-4{
+    position:absolute;
+    top:80px;
+    left:1060px;
+}
+.footer-ul{
+    list-style:none;
+}
+.sub-footer{
+    position:absolute;
+    left:520px;
+    bottom: 12px;
+}
+
+.footer-line{
+    position:absolute;
+    width:1350px;
+    border: 1px solid white;
+    left:0px;
+    bottom: 50px;
+
+}
+
+.slider{
+    position:absolute;
+ /*   border: 2px solid rgb(255, 152, 0);
+    height: 425px;
+    width: 850px;
+    top: 115px;
+    left: 245px;*/
+    height: 421px;
+    width: 1350px;
+    top: 115px;
+    left: 0px;
+}
